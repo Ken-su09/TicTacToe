@@ -336,6 +336,7 @@ class MainFragment : BaseFragment() {
                         ).show()
                     }
                 }
+                resetAll()
             }
         }
         timer.start()
