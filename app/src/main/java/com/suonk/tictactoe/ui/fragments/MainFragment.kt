@@ -231,20 +231,77 @@ class MainFragment : BaseFragment() {
         playerOneScore = 0
         playerTwoScore = 0
         countdownTimer()
+        end()
     }
 
-    private fun end(){
+    private fun end() {
         mutableListOfCases.clear()
 
-//        binding?.apply {
-//            oneOneIcon.setImageDrawable(Color.TRANSPARENT)
-//            twoOneIcon.setDrawa
-//            threeOneIcon.setDrawa
-//            oneTwoIcon.setDrawa
-//            oneThreeIcon.setDrawa
-//            threeThreeIcon.setDrawa
-//            twoTwoIcon.setDrawa
-//        }
+        binding?.apply {
+            oneOneIcon.setImageDrawable(
+                ResourcesCompat.getDrawable(
+                    resources,
+                    R.drawable.empty,
+                    null
+                )
+            )
+            twoOneIcon.setImageDrawable(
+                ResourcesCompat.getDrawable(
+                    resources,
+                    R.drawable.empty,
+                    null
+                )
+            )
+            threeOneIcon.setImageDrawable(
+                ResourcesCompat.getDrawable(
+                    resources,
+                    R.drawable.empty,
+                    null
+                )
+            )
+            threeTwoIcon.setImageDrawable(
+                ResourcesCompat.getDrawable(
+                    resources,
+                    R.drawable.empty,
+                    null
+                )
+            )
+            oneTwoIcon.setImageDrawable(
+                ResourcesCompat.getDrawable(
+                    resources,
+                    R.drawable.empty,
+                    null
+                )
+            )
+            oneThreeIcon.setImageDrawable(
+                ResourcesCompat.getDrawable(
+                    resources,
+                    R.drawable.empty,
+                    null
+                )
+            )
+            threeThreeIcon.setImageDrawable(
+                ResourcesCompat.getDrawable(
+                    resources,
+                    R.drawable.empty,
+                    null
+                )
+            )
+            twoTwoIcon.setImageDrawable(
+                ResourcesCompat.getDrawable(
+                    resources,
+                    R.drawable.empty,
+                    null
+                )
+            )
+            twoThreeIcon.setImageDrawable(
+                ResourcesCompat.getDrawable(
+                    resources,
+                    R.drawable.empty,
+                    null
+                )
+            )
+        }
     }
 
     private fun countdownTimer() {
