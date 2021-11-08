@@ -236,71 +236,27 @@ class MainFragment : BaseFragment() {
 
     private fun end() {
         mutableListOfCases.clear()
+        
+        case1_1 = false
+        case1_2 = false
+        case1_3 = false
+        case2_1 = false
+        case2_2 = false
+        case2_3 = false
+        case3_1 = false
+        case3_2 = false
+        case3_3 = false
 
         binding?.apply {
-            oneOneIcon.setImageDrawable(
-                ResourcesCompat.getDrawable(
-                    resources,
-                    R.drawable.empty,
-                    null
-                )
-            )
-            twoOneIcon.setImageDrawable(
-                ResourcesCompat.getDrawable(
-                    resources,
-                    R.drawable.empty,
-                    null
-                )
-            )
-            threeOneIcon.setImageDrawable(
-                ResourcesCompat.getDrawable(
-                    resources,
-                    R.drawable.empty,
-                    null
-                )
-            )
-            threeTwoIcon.setImageDrawable(
-                ResourcesCompat.getDrawable(
-                    resources,
-                    R.drawable.empty,
-                    null
-                )
-            )
-            oneTwoIcon.setImageDrawable(
-                ResourcesCompat.getDrawable(
-                    resources,
-                    R.drawable.empty,
-                    null
-                )
-            )
-            oneThreeIcon.setImageDrawable(
-                ResourcesCompat.getDrawable(
-                    resources,
-                    R.drawable.empty,
-                    null
-                )
-            )
-            threeThreeIcon.setImageDrawable(
-                ResourcesCompat.getDrawable(
-                    resources,
-                    R.drawable.empty,
-                    null
-                )
-            )
-            twoTwoIcon.setImageDrawable(
-                ResourcesCompat.getDrawable(
-                    resources,
-                    R.drawable.empty,
-                    null
-                )
-            )
-            twoThreeIcon.setImageDrawable(
-                ResourcesCompat.getDrawable(
-                    resources,
-                    R.drawable.empty,
-                    null
-                )
-            )
+            oneOneIcon.setImageResource(0)
+            twoOneIcon.setImageResource(0)
+            threeOneIcon.setImageResource(0)
+            threeTwoIcon.setImageResource(0)
+            oneTwoIcon.setImageResource(0)
+            oneThreeIcon.setImageResource(0)
+            threeThreeIcon.setImageResource(0)
+            twoTwoIcon.setImageResource(0)
+            twoThreeIcon.setImageResource(0)
         }
     }
 
